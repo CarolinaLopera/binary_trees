@@ -1,7 +1,7 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_insert_right - This function create a node left in a binary tree.
+ * binary_tree_insert_right - Create a node right in a binary tree.
  *
  * Return: Always a pointer to the node created.
  * @value: Is a integer to store in the node.
