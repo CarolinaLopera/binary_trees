@@ -1,7 +1,7 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_inorder - Function to check if a node is a root.
+ * binary_tree_inorder - Through a binary tree using in-order traversal.
  *
  * Return: Always void.
  * @tree: Is a pointer to root of the binaty tree.
