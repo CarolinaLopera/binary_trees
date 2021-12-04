@@ -37,13 +37,11 @@ size_t binary_tree_depth(const binary_tree_t *tree);
 size_t binary_tree_size(const binary_tree_t *tree);
 int binary_tree_is_full(const binary_tree_t *tree);
 int binary_tree_is_perfect(const binary_tree_t *tree);
-<<<<<<< HEAD
 binary_tree_t *binary_tree_sibling(binary_tree_t *node);
-
-=======
 size_t binary_tree_leaves(const binary_tree_t *tree);
 size_t binary_tree_nodes(const binary_tree_t *tree);
->>>>>>> 3fe87d77d67e386b5d26938867be164f60ed236a
+int binary_tree_balance(const binary_tree_t *tree);
+int binary_tree_is_perfect(const binary_tree_t *tree);
 void print_num(int n);
 
 #endif /* BYNARY_TREES_H */
