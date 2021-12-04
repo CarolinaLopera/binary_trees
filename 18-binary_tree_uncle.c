@@ -18,3 +18,22 @@ binary_tree_t *binary_tree_sibling(binary_tree_t *node)
 
 	return (NULL);
 }
+
+/**
+ * binary_tree_uncle - Function to finds the uncle of a node.
+ *
+ * Return: A pointer to the uncle node
+ * @node: Is a pointer to the node to find the uncle.
+ */
+binary_tree_t *binary_tree_uncle(binary_tree_t *node)
+{
+	binary_tree_t *uncle = NULL;
+
+	if (node == NULL)
+		return (NULL);
+
+	if (node->parent != NULL)
+		uncle = binary_tree_sibling(node->parent);
+
+	return (uncle);
+}
